@@ -14,6 +14,7 @@ class App extends Component {
     }
 
     // this.handleChange = this.handleChange.bind(this);
+    // ssh test
   }
 
   handleChange = e => {
@@ -36,7 +37,8 @@ class App extends Component {
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return(
-      <div style={{textAlign: 'center'}}>
+      <div className="App">
+        <h1> Monsters Rolodex </h1>
         <SearchBox
             placeholder="search Monsters"
             handleChange={this.handleChange}
